@@ -6,28 +6,28 @@ A pet project for Narin to learn web development.
 
 ### `package.json`
 
-```json
+```javascript
 "scripts" : {
   "dev": "webpack --mode development", // transpile code
   "build": "webpack --mode production" // transpile and mimify code
-}
+},
 "devDependencies" : {
-	"babel-core": "^6.26.3",         // the core transpiler code 
-	"babel-loader": "^7.1.4",        // loads babel into webpack
-	"babel-preset-env": "^1.7.0",    // converts ES6 -> ES5 (preset-es2015 is depricated)
-	"babel-preset-react": "^6.24.1", // converts JSX and other react syntax to vanilla JS
-	"html-loader": "^0.5.5",         // (not really sure) 
-	"html-webpack-plugin": "^3.2.0", // (not really sure)
-	"react": "^16.3.2",              // the core react code
-	"react-dom": "^16.3.2",          // interface between react and the dom
-	"webpack": "^4.8.3",             // the bundler which converts src/index.js -> dist/main.js
-	"webpack-cli": "^2.1.3"          // allows you to compile from the command line
+  "babel-core": "^6.26.3",         // the core transpiler code 
+  "babel-loader": "^7.1.4",        // loads babel into webpack
+  "babel-preset-env": "^1.7.0",    // converts ES6 -> ES5 (preset-es2015 is depricated)
+  "babel-preset-react": "^6.24.1", // converts JSX and other react syntax to vanilla JS
+  "html-loader": "^0.5.5",         // (not really sure) 
+  "html-webpack-plugin": "^3.2.0", // (not really sure)
+  "react": "^16.3.2",              // the core react code
+  "react-dom": "^16.3.2",          // interface between react and the dom
+  "webpack": "^4.8.3",             // the bundler which converts src/index.js -> dist/main.js
+  "webpack-cli": "^2.1.3"          // allows you to compile from the command line
 }
 ```
 
 ### `.babelrc`
 
-```json
+```javascript
 {
   "presets": ["env", "react"]    // use the babel-preset-env and babel-preset-react modules
 }
