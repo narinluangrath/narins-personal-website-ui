@@ -8,8 +8,9 @@ A pet project for Narin to learn web development.
 
 ```javascript
 "scripts" : {
-  "dev": "webpack --mode development", // transpile code
-  "build": "webpack --mode production" // transpile and mimify code
+  "start": "webpack-dev-server --open --mode development", // transpile code and host using dev server 
+  "dev": "webpack --mode development",                     // transpile code
+  "build": "webpack --mode production"                     // transpile and mimify code
 },
 "devDependencies" : {
   "babel-core": "^6.26.3",         // the core transpiler code 
@@ -22,6 +23,7 @@ A pet project for Narin to learn web development.
   "react-dom": "^16.3.2",          // interface between react and the dom
   "webpack": "^4.8.3",             // the bundler which converts src/index.js -> dist/main.js
   "webpack-cli": "^2.1.3"          // allows you to compile from the command line
+  "webpack-dev-server": "^3.1.4"   // dev server for local testing
 }
 ```
 
