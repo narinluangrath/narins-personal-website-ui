@@ -1,8 +1,8 @@
 # Narin's Personal Website
 
-A pet project for Narin to learn web development.
+A UI for professional web development portfolio.
 
-## Notes
+## Under the hood
 
 ### `package.json`
 
@@ -23,7 +23,7 @@ A pet project for Narin to learn web development.
   "react-dom": "^16.3.2",          // interface between react and the dom
   "webpack": "^4.8.3",             // the bundler which converts src/index.js -> dist/main.js
   "webpack-cli": "^2.1.3"          // allows you to compile from the command line
-  "webpack-dev-server": "^3.1.4"   // dev server for local testing
+  "webpack-dev-server": "^3.1.4"   // dev server for local testing (uses Node.js Express under the hood)
 }
 ```
 
